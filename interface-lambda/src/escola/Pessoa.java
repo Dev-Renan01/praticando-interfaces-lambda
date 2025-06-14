@@ -85,4 +85,16 @@ public abstract class Pessoa {
         this.nomeMae = nomeMae;
     }
 
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "nome='" + nome + '\'' +
+                ", idade=" + idade +
+                ", dataNascimento='" + dataNascimento + '\'' +
+                ", RG='" + RG + '\'' +
+                ", cpf='" + cpf + '\'' +
+                ", nomePai='" + nomePai + '\'' +
+                ", nomeMae='" + nomeMae + '\'' +
+                '}';
+    }
 }

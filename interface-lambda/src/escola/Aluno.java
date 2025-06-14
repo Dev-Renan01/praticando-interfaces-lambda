@@ -46,4 +46,14 @@ public class Aluno extends Pessoa{
     public double salario(){
         return 1800.80 * 0.9;
     }
+
+    @Override
+    public String toString() {
+        return "Aluno {" +
+                "Data da Matricula = '" + dataMatricula +
+                ", Nome da Escola = '" + nomeEscola +
+                ", Serie Matriculado = '" + serieMatriculado +
+                ", disciplinas = '" + disciplinas +
+                " }";
+    }
 }
